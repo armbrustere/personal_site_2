@@ -1,0 +1,39 @@
+{% extends "html/base.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<link href="{% static "css/home.css" %}" rel="stylesheet">
+
+{% block title %}Blog Posts{% endblock %}
+{% block content %}
+    <br><br>
+    <h1 class="times" style="font-size: 40px">General Posts</h1>
+    <br><br><br><br><br>
+    <div class="grid-container align-center">
+        {% for post in posts %}
+            <div class="grid-item border-0 frame shadow secondary-theme card">
+                <h2>
+                    <a class="times" style="color:cadetblue;" href="{{ post.get_absolute_url }}">
+                        {{ post.title }}
+                    </a>
+                </h2>
+                <p class="date">
+                    Published {{ post.publish }} by {{ post.author }}
+                </p>
+                <div>
+                    <p class="times_info">
+                        {{ post.body|truncatewords:30 }}
+                    </p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
+
+{% block sidebar %}
+    <div>
+    <h2 class="times">My New Blog</h2>
+    <p>This is my new blog, new updates will come soon.</p>
+    </div>
+{% endblock %}

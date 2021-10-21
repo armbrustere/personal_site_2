@@ -1,0 +1,20 @@
+{% extends "html/base.html" %}
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% block title %}About Me{% endblock %}
+</head>
+<body>
+{% block content %}
+    <div>
+        <a class="times_info" style="text-align: center"
+           href={% static 'documents/Ethan_Armbruster_Resume.pdf' %} download>
+            <p>Download a PDF version here</p>
+        </a>
+    </div>
+{% endblock %}
+</body>
+</html>

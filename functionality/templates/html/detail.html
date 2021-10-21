@@ -1,0 +1,18 @@
+{% extends "html/base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% block title %}{{ post.title }}{% endblock %}
+{% block content %}
+    <br><br>
+    <h1 class="times" style="font-size: 40px">{{ post.title }}</h1>
+    <br><br><br><br><br><br><br>
+    <div class="navbar-center"style="width: 20%;">
+        <p class="date">
+            Published {{ post.publish }} by {{ post.author }}
+        </p>
+        <p class="times_info">
+            {{ post.body|safe|linebreaksbr }}
+        </p>
+    </div>
+{% endblock %}
