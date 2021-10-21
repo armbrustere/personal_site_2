@@ -1,0 +1,62 @@
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 80px;
+    grid-column-gap: 25px;
+    transform: translateX(5%);
+    grid-row-gap: 25px;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    justify-content: center;
+}
+.grid-container_detail {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 80px;
+    grid-column-gap: 25px;
+    transform: translateX(5%);
+    grid-row-gap: 25px;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.grid-item {
+    padding: 40px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 300px;
+    width: 500px;
+    height: 300px;
+    word-wrap: break-word;
+    background-color: #282c37b3;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.dropdown-toggle-browse::after {
+    content: none;
+}
+
+.dropdown_menu_color {
+    font-size: 20px;
+    color: black;
+}
