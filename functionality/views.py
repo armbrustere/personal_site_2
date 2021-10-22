@@ -3,7 +3,7 @@ from .models import Post
 # Create your views here.
 
 def get_home(request):
-    return render(request, 'html/home_2.html')
+    return render(request, 'html/home.html')
 
 def post_list(request):
     posts = Post.published.all()

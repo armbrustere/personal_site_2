@@ -7,19 +7,20 @@
     <title>Title</title>
     {% block title %}About Me{% endblock %}
 </head>
-<body>
 {% block content %}
     <div>
-        <p class = times_info >A little about me.... </p>
+        <div>
+            <br><br><br>
+            <h1 class=times_info> A little about me.... </h1>
 
-    </div>
-    <div>
-        <p>Find my resume here..</p>
-        <a class="times_info" style="text-align: center"
-           href={% static 'documents/Ethan_Armbruster_Resume.pdf' %} download>
-            <p>Download a PDF version here</p>
-        </a>
+        </div>
+        <div>
+            <p class="times_info">Find my resume here..</p>
+            <a class="times_info" style="text-align: center"
+               href={% static 'documents/Ethan_Armbruster_Resume.pdf' %} download>
+                <p class="times_info">Download a PDF version here</p>
+            </a>
+        </div>
     </div>
 {% endblock %}
-</body>
 </html>
