@@ -1,6 +1,9 @@
 {% extends "html/base.html" %}
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
+<link rel="shortcut icon" type="images/ico" href="{% static "images/favicon.ico" %}"/>
+
 
 {% block title %}{{ post.title }}{% endblock %}
 {% block content %}
