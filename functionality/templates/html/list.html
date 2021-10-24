@@ -1,5 +1,6 @@
 {% extends "html/base.html" %}
 {% load static %}
+{% load tz %}
 <!DOCTYPE html>
 <html lang="en">
 <link href="{% static "css/home.css" %}" rel="stylesheet">
@@ -20,7 +21,7 @@
                     </a>
                 </h2>
                 <p class="date">
-                    Published {{ post.publish.astimezone }} by {{ post.author.first_name }} {{ post.author.last_name }}
+                    Published {{ post.publish|timezone:"America/New_York" }} by {{ post.author.first_name }} {{ post.author.last_name }}
                 </p>
                 <div>
                     <p class="times_info">
