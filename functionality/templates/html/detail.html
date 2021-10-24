@@ -12,7 +12,7 @@
     <br><br><br><br><br><br><br>
     <div class="navbar-center"style="width: 20%;">
         <p class="date">
-            Published {{ post.publish }} by {{ post.author.first_name }} {{ post.author.last_name }}
+            Published {{ post.publish.astimezone }} by {{ post.author.first_name }} {{ post.author.last_name }}
         </p>
         <p class="times_info">
             {{ post.body|safe|linebreaksbr }}
