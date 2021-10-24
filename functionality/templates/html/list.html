@@ -20,7 +20,7 @@
                     </a>
                 </h2>
                 <p class="date">
-                    Published {{ post.publish }} by {{ post.author.first_name }} {{ post.author.last_name }}
+                    Published {{ post.publish.astimezone }} by {{ post.author.first_name }} {{ post.author.last_name }}
                 </p>
                 <div>
                     <p class="times_info">
