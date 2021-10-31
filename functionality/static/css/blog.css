@@ -16,6 +16,7 @@
     line-height: 2.25rem;
 
 }
+
 .times_info {
     font-style: normal;
     font-stretch: normal;
@@ -26,9 +27,14 @@
     font-size: 1.25rem;
     line-height: 1.5625rem;
 }
+
 .centerthis {
-  align-self: center;
-  justify-self: center;
+    align-self: center;
+    justify-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 body {

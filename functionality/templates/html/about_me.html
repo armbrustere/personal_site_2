@@ -1,0 +1,39 @@
+{% extends "html/base.html" %}
+<!DOCTYPE html>
+{% load static %}
+{% load tz %}
+<html lang="en">
+<link rel="shortcut icon" type="images/ico" href="{% static "images/favicon.ico" %}"/>
+
+{% block title %}About Me{% endblock %}
+{% block content %}
+    <br><br>
+    <h1 class="times" style="font-size: 40px">About Me</h1>
+    <br><br><br><br><br>
+
+    <div class="navbar-center" style="width: 20%;">
+        <div>
+            <img class="rounded-circle d-lg centerthis " style="height: 15rem; transform: translatex(60%);"
+                 src="{% static "images/ethan_face.jpg" %}" alt="Face">
+        </div>
+        <br>
+        <p class="times_info">
+            Ethan is a recent graduate of Rowan University with a degree in Computer Science who is experienced in
+            languages
+            such as Java, Python and C++/C, web frameworks such as Django and Bootstrap and mobile app development.
+            <br><br>
+            Recently, Ethan has been actively working on developing his blog to share his projects and code repositories
+            with others as well as mobile apps that are used by his coworkers and family members. When he isn’t working
+            on
+            web and software development, he is maintaining/upgrading his 1991 Ford F-150, a truck that was once owned
+            by
+            his grandfather.
+            <br><br>
+            Ethan currently resides in Southern New Jersey with his family and two dogs and enjoys the area and its
+            benefits.
+            Ethan can be reached at ethan.armbruster01@gmail.com
+        </p>
+
+    </div>
+
+{% endblock %}
