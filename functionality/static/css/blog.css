@@ -36,6 +36,14 @@
     margin-right: auto;
     width: 50%;
 }
+.wrapper {
+    max-width: calc(720px - (30px * 2));
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
 
 body {
     margin: 0;
