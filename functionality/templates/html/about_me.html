@@ -1,5 +1,5 @@
-{% extends "html/base.html" %}
 <!DOCTYPE html>
+{% extends "html/base.html" %}
 {% load static %}
 {% load tz %}
 <html lang="en">
@@ -7,13 +7,11 @@
 
 {% block title %}About Me{% endblock %}
 {% block content %}
-    <br><br>
-    <h1 class="times" style="font-size: 40px">About Me</h1>
-    <br><br><br><br><br>
+    <h1 class="times header">About Me</h1>
 
-    <div class="navbar-center" style="width: 20%;">
+    <div class="center_page" >
         <div>
-            <img class="rounded-circle d-lg  " style="height: 15rem; transform: translatex(65%);"
+            <img class="rounded-circle d-lg picture_edging centerthis"
                  src="{% static "images/ethan_face.jpg" %}" alt="Face">
         </div>
         <br>
@@ -31,9 +29,11 @@
             <br><br>
             Ethan currently resides in Southern New Jersey with his family and two dogs and enjoys the area and its
             benefits.
-            Ethan can be reached at ethan.armbruster01@gmail.com
-        </p>
+            <br>Ethan can be reached here
+        <p style="cursor: pointer; text-decoration: underline;" href="mailto:ethan.armbruster01@gmail.com">@Email</p>
+
 
     </div>
+    </html>
 
 {% endblock %}

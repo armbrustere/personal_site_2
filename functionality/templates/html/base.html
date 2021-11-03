@@ -14,6 +14,24 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     {# ------------------------------------------    <#}
 
+    {# <---------- Meta tags for mobile users go here ---------->    <#}
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <meta name="viewport" content="height=device-height, initial-scale=1">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="p:domain_verify" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Blog Page">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+    <meta name="apple-mobile-web-app-title" content="Blog Page">
+
+    {# ----------------------------------------------------------    <#}
+
+
     {# <---------- Scripts go here ---------->    <#}
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -64,13 +82,8 @@
 </nav>
 
 
-<div id="content">
+<div class="wrapper">
     {% block content %}
-
-    {% endblock %}
-</div>
-<div id="sidebar_blog">
-    {% block sidebar %}
 
     {% endblock %}
 </div>

@@ -5,7 +5,29 @@
     font-style: italic;
     font-size: 1.9375rem;
     line-height: 2.25rem;
-    text-align: left;
+}
+
+.header {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-size: 40px;
+    text-align: center;
+}
+.detail_post_header {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-size: 40px;
+    text-align: center;
+}
+
+.picture_edging {
+    height: 15rem;
+
+}
+
+.mobile_friendly {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 
 .times_nonI {
@@ -34,8 +56,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
+
 .wrapper {
     max-width: calc(720px - (30px * 2));
     position: relative;
@@ -60,9 +82,9 @@ h1 {
     font-weight: normal;
     border-bottom: 1px solid #bbb;
     padding: 0 0 10px 0;
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*transform: translatex(-50%);*/
 
 }
 
@@ -77,7 +99,7 @@ h2 {
     padding: 0 0 0 30px;
 }
 
-#sidebar_blog {
+.sidebar_blog {
     float: right;
     width: 10%;
     padding: 10px;
