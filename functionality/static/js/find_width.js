@@ -9,7 +9,7 @@ function check_width() {
     const card_widthNheight = "300px"
 
 
-    if (screen.width <= 375) {
+    if (screen.width <= 750) {
         post_grid.style.gridTemplateColumns = "auto"
         for (let i = 0; i < individual_posts.length; i++) {
             individual_posts[i].style.height = "400px";
@@ -18,7 +18,7 @@ function check_width() {
 
 
     }
-    if (screen.width > 375) {
+    if (screen.width > 800) {
         post_grid.style.gridTemplateColumns = "auto auto"
         for (let i = 0; i < individual_posts.length; i++) {
             individual_posts[i].style.height = card_widthNheight;
