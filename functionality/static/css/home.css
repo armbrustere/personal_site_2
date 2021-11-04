@@ -38,6 +38,8 @@
     -ms-flex-direction: column;
     flex-direction: column;
     word-wrap: break-word;
+    height: 300px;
+    width: 500px;
     background-color: #282c37b3;
     background-clip: border-box;
     -webkit-background-clip: border-box;
