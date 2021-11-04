@@ -6,7 +6,7 @@
 
 {% block title %}Blog Posts{% endblock %}
 {% block content %}
-    <h1 class="times header">General Posts</h1>
+    <h1 class="times header"><span>General Posts</span></h1>
     <div id="blog_post_grid" class="grid-container">
         {% for post in posts %}
 
@@ -28,7 +28,6 @@
             </div>
         {% endfor %}
     </div>
-    <p id="demo" style="visibility: hidden"></p>
 {% endblock %}
 
 <div class="sidebar_blog">
@@ -36,7 +35,6 @@
         <h2 class="times">My New Blog</h2>
         <p>This is my new blog, new updates will come soon.</p>
     </div>
-
 
 
 </div>
