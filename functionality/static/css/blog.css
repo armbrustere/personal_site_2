@@ -26,8 +26,12 @@
 }
 
 .mobile_friendly {
-    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
+}
+
+.post_title_color{
+    color: cadetblue;
 }
 
 .times_nonI {

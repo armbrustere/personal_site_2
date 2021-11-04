@@ -18,7 +18,6 @@
     grid-template-columns: auto;
     padding: 80px;
     grid-column-gap: 25px;
-    transform: translateX(5%);
     grid-row-gap: 25px;
     align-items: center;
     align-self: center;
@@ -38,15 +37,12 @@
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    max-width: 500px;
-    max-height: 300px;
-    width: 500px;
-    height: 300px;
     word-wrap: break-word;
     background-color: #282c37b3;
     background-clip: border-box;
+    -webkit-background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .25rem;
+    border-radius: 1rem;
 }
 
 .dropdown-toggle-browse::after {
