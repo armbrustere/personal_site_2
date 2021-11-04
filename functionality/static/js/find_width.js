@@ -8,7 +8,6 @@ function check_width() {
     const individual_posts = document.querySelectorAll(".grid-item");
     const card_widthNheight = "300px"
 
-    document.getElementById("demo").innerHTML = "Total Width: " + screen.width + "px";
 
     if (screen.width <= 375) {
         post_grid.style.gridTemplateColumns = "auto"
