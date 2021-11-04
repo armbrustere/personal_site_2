@@ -1,6 +1,7 @@
 .center_page {
     margin: 0 auto;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -24,6 +25,9 @@
     justify-items: center;
     justify-content: center;
 }
+.clear{
+    clear: inherit;
+}
 
 .grid-item {
     padding: 40px;
@@ -38,8 +42,8 @@
     -ms-flex-direction: column;
     flex-direction: column;
     word-wrap: break-word;
-    height: 300px;
-    width: 500px;
+    /*height: 300px;*/
+    /*width: 500px;*/
     background-color: #282c37b3;
     background-clip: border-box;
     -webkit-background-clip: border-box;
