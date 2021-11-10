@@ -1,5 +1,5 @@
 # Welcome!
-Thank you so much for checking out the repo for my blog page, and if you like it and wish to follow its progress, click the star!
+Thank you so much for checking out the repo for my blog page, and if you like it and wish to follow its progress, click the 🌟!
 
 
 # Creator
