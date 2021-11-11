@@ -15,11 +15,7 @@
             by {{ post.author.first_name }} {{ post.author.last_name }}
         </p>
     </div>
-    <div class="center_page ">
-
-        <p class="times_info">
-            {{ post.body|safe|linebreaksbr }}
-        </p>
-
+    <div class="center_page times_info">
+        {{ post.body|safe|linebreaksbr }}
     </div>
 {% endblock %}

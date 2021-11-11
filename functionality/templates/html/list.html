@@ -20,10 +20,9 @@
                     Published {{ post.publish|timezone:"America/New_York" }}
                     by {{ post.author.first_name }} {{ post.author.last_name }}
                 </p>
-                <div>
-                    <p class="times_info">
-                        {{ post.body|truncatewords:30 }}
-                    </p>
+                <div class="times_info">
+                        {{ post.body|striptags|truncatewords:30 }}
+
                 </div>
             </div>
         {% endfor %}
