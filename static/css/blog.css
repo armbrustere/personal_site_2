@@ -5,7 +5,33 @@
     font-style: italic;
     font-size: 1.9375rem;
     line-height: 2.25rem;
-    text-align: left;
+}
+
+.header {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-size: 40px;
+    text-align: center;
+}
+.detail_post_header {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-size: 40px;
+    text-align: center;
+}
+
+.picture_edging {
+    height: 15rem;
+
+}
+
+.mobile_friendly {
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.post_title_color{
+    color: cadetblue;
 }
 
 .times_nonI {
@@ -16,6 +42,7 @@
     line-height: 2.25rem;
 
 }
+
 .times_info {
     font-style: normal;
     font-stretch: normal;
@@ -26,9 +53,22 @@
     font-size: 1.25rem;
     line-height: 1.5625rem;
 }
+
 .centerthis {
-  align-self: center;
-  justify-self: center;
+    align-self: center;
+    justify-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    max-width: calc(720px - (30px * 2));
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 body {
@@ -46,9 +86,9 @@ h1 {
     font-weight: normal;
     border-bottom: 1px solid #bbb;
     padding: 0 0 10px 0;
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*transform: translatex(-50%);*/
 
 }
 
@@ -63,7 +103,7 @@ h2 {
     padding: 0 0 0 30px;
 }
 
-#sidebar_blog {
+.sidebar_blog {
     float: right;
     width: 10%;
     padding: 10px;

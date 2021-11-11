@@ -1,0 +1,10 @@
+#Pulls Changes from Github
+sudo git pull
+
+#Updates Static Files
+sudo /opt/bitnami/ctlscript.sh restart apache
+
+#Restarts Apache Server
+sudo /opt/bitnami/ctlscript.sh restart apache
+
+$SHELL
