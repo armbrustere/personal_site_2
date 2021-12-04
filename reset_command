@@ -1,0 +1,2 @@
+//Removes the last commit from the github repo
+git push -f origin HEAD^:main
