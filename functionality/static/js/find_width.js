@@ -18,7 +18,7 @@ function check_width() {
 
     }
     if (screen.width > 800) {
-        post_grid.style.gridTemplateColumns = "auto auto"
+        post_grid.style.gridTemplateColumns = "auto auto auto"
         for (let i = 0; i < individual_posts.length; i++) {
             individual_posts[i].style.height = "350px";
             individual_posts[i].style.width = "400px";
